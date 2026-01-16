@@ -2,4 +2,4 @@
 Diatonic  - D whistle
 more or less
 
-d e f# g a b c c# - D E F# G A B C C# - D
+d e f# g a a# b c c# - D E F# G A A# B C C# - D

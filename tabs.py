@@ -6,6 +6,8 @@ from reportlab.lib.units import cm, mm, inch, pica
 import os
 import codecs
 
+# "On a standard D whistle, you can easily play in: G major (#), E minor (#), D major (##) and B minor (##).
+
 # TODO: ook halfgesloten holes?
 # C natural can be played by half-holing the first hole—this can be simpler, especially when playing the octave.
 holes = {
@@ -15,8 +17,9 @@ holes = {
     "f#": "****oo",
     "g": "***ooo",
     "a": "**oooo",
+    "a#": "*o****",
     "b": "*ooooo",
-    "c": "o**ooo",
+    "c": "o**ooo", # of "o***oo", zie https://www.youtube.com/watch?v=XdXFz6DXq_Y
     "c#": "oooooo",
     # Tweede octaaf
     "D": "o*****",
@@ -24,9 +27,10 @@ holes = {
     "F#": "****oo",
     "G": "***ooo",
     "A": "**oooo",
+    "A#": "*o*ooo",
     "B": "*ooooo",
-    "C": "o***oo",
-    "C#": "oooooo",
+    "C": "o***oo", # of "o*o***"
+    "C#": "oooooo", # of "ooo***"
     # Derde octaaf
     # "D": "o*****",
 }
